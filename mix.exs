@@ -21,6 +21,7 @@ defmodule NarwinBuddies.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:credo, "~> 1.5.5"},
       {:slack, "~> 0.23.5"}
     ]
   end
